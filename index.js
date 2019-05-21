@@ -10,7 +10,7 @@ function tailsNeverFails() {
   let coinFlip = Math.round(Math.random());
   // Tails == 1 and Heads == 0
   let tailsCounter = 0;
-  while (coinflip != 0) {
+  while (coinFlip != 0) {
     tailsCounter++;
     coinFlip = Math.random().round();
   }
