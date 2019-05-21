@@ -14,6 +14,6 @@ function tailsNeverFails() {
     tailsCounter++;
     coinFlip = Math.round(Math.random());
   }
-  console.log(`You got ${tailsCounter} tails in a row!`);
-  return tailsCounter;
+  //console.log();
+  return `You got ${tailsCounter} tails in a row!`;
 }
