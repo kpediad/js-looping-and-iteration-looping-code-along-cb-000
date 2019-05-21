@@ -12,7 +12,7 @@ function tailsNeverFails() {
   let tailsCounter = 0;
   while (coinFlip != 0) {
     tailsCounter++;
-    coinFlip = Math.random().round();
+    coinFlip = Math.round(Math.random());
   }
   console.log(`You got ${tailsCounter} tails in a row!`);
   return tailsCounter;
